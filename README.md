@@ -67,9 +67,10 @@ Skapa ett privat repo på GitHub och koppla det till din lokala utvecklingsmilj�
 
 
 ## Grundläggande krav
-I applikation ska en besökare kunna navigera efter närliggande resturanger 
-Ett resultat ska presenteras och kunna filtreras efter någon valbar egenskap (ex avstånd till restaurang)
-Appen ska utgå från mobile first. Dvs när ni utvecklar så antag viewport likt en iPhone 10
+
+- I applikation ska en besökare kunna navigera efter närliggande resturanger 
+- Ett resultat ska presenteras och kunna filtreras efter någon valbar egenskap (ex avstånd till restaurang)
+- Appen ska utgå från mobile first. Dvs när ni utvecklar så antag viewport likt en iPhone 10
 
 Utvecklingen av applikationen ska finnas dokumenterad på GitHub. Du ska ha gjort minst 10 commits under projektet.
 
