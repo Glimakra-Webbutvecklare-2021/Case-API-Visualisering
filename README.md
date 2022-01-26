@@ -81,6 +81,8 @@ Här finns följande utmaningar. Anta en eller flera!
 
 - En användare ska kunna klicka på en karta för att ange en utgångspunkt för närliggande restauranger 
 - Sidan ska vyer för skärmar
+- Skapa en hjälpklass för en metod som fetch()
+- Spara ngn form av data i Local Storage
 
 
 ## Inlämning och redovisning
