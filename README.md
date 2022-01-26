@@ -30,6 +30,7 @@ EFtersom man kan göra ett begränsat antal förfrågningar så bör ni spara ne
 ### mapbox
 https://www.mapbox.com
 
+![mapbox](/mapbox.png)
 Tjänsten kan användas efter att man registrerar sig på https://account.mapbox.com/auth/signup/
 https://account.mapbox.com/auth/signup/
 
