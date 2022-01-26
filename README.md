@@ -92,17 +92,17 @@ Vi vill den här gången att alla får ta del av varandras redovisning. Det inne
 Förbered 5 minuters redovisning enligt följande mall:
 
 I reovisningen ska du:
-demonstrera applikationen
-visa exempel på annan funktionalitet (ex ngn av utmaningarna)
-berätta vad du är mest nöjd med (design, kod, struktur...)
-berätta vad du skulle vilja att applikationen kan göra, men inte hunnit att koda
-Redovisningen sker i bokstavordning (efternamn)
+- demonstrera applikationen
+- visa exempel på annan funktionalitet (ex ngn av utmaningarna)
+- berätta vad du är mest nöjd med (design, kod, struktur...)
+- berätta vad du skulle vilja att applikationen kan göra, men inte hunnit att koda
+- Redovisningen sker i bokstavordning (efternamn)
 
 ## Handledning
 Det kommer givetvis finnas möjlighet till handledning fram tills den 15 februari. I första hand är det under vanlig lektionstid.
 
 ## Resurser
-Kom igång med Documenu: https://documenu.com/docs#get_started
-Geocoding API playground: https://docs.mapbox.com/playground/geocoding/
-Dokumentation och genomgångar: https://glimnet.sharepoint.com/sites/Webbutvecklare2021/SitePages/Modul-4.aspx
-Fetch: https://github.com/thejsway/thejsway/blob/master/manuscript/chapter21.md
+- Kom igång med Documenu: https://documenu.com/docs#get_started
+- Geocoding API playground: https://docs.mapbox.com/playground/geocoding/
+- Dokumentation och genomgångar: https://glimnet.sharepoint.com/sites/Webbutvecklare2021/SitePages/Modul-4.aspx
+- Fetch: https://github.com/thejsway/thejsway/blob/master/manuscript/chapter21.md
