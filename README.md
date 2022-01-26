@@ -73,8 +73,9 @@ Skapa ett privat repo på GitHub och koppla det till din lokala utvecklingsmilj�
 ## Grundläggande krav
 
 - I applikation ska en besökare kunna navigera efter närliggande resturanger 
-- Ett resultat ska presenteras och kunna filtreras efter någon valbar egenskap (ex avstånd till restaurang)
+- Ett resultat ska presenteras och kunna filtreras efter någon valbar egenskap
 - Appen ska utgå från mobile first. Dvs när ni utvecklar så antag viewport likt en iPhone 10
+- En bild av en karta (ej klickbar för koordinater) 
 
 Utvecklingen av applikationen ska finnas dokumenterad på GitHub. Du ska ha gjort minst 10 commits under projektet.
 
@@ -84,11 +85,12 @@ Utvecklingen av applikationen ska finnas dokumenterad på GitHub. Du ska ha gjor
 
 Här finns följande utmaningar. Anta en eller flera!
 
-- En användare ska kunna klicka på en karta för att ange en utgångspunkt för närliggande restauranger 
-- Sidan ska även ha anpassad vyer för skärm
 - Skapa en hjälpklass för en metod som fetch()
+- Sidan ska även ha anpassad vyer för skärm
+- En användare ska kunna klicka på kartan för att ange en utgångspunkt för närliggande restauranger 
 - Spara ngn form av data i Local Storage
-- ..ngt som du tycker passar
+- Beräkna avstånd mellan två punkter baserade på latitude | longitude (se länk under resurser)
+- ..ngt som du tycker 
 
 ## Inlämning och redovisning
 - Caset lämnas in den 14 februari
@@ -113,3 +115,4 @@ Det kommer givetvis finnas möjlighet till handledning fram tills den 15 februar
 - Geocoding API playground: https://docs.mapbox.com/playground/geocoding/
 - Dokumentation och genomgångar: https://glimnet.sharepoint.com/sites/Webbutvecklare2021/SitePages/Modul-4.aspx
 - Fetch: https://github.com/thejsway/thejsway/blob/master/manuscript/chapter21.md
+- Beräkna avstånd mellan två punkter baserade på latitude / longitude: https://www.movable-type.co.uk/scripts/latlong.html
