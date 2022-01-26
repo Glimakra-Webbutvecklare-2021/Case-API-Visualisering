@@ -4,11 +4,8 @@
 
 Case modul 4 API
 
-Du ska skapa en applikation som visualiserar data för restauranger i USA.
-
-Introduktion
-
-I caset ska ni arbeta individuellt och skapa en webbsida som visualiserar data från API:er. 
+## Introduktion
+I caset ska ni arbeta individuellt och skapa en webbsida som visualiserar data från API:er. Det ska vara en applikation som visualiserar data för restauranger i USA.
 
 ## API:er
 
