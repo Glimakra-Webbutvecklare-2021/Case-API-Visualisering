@@ -13,7 +13,12 @@ I caset ska ni arbeta individuellt och skapa en webbsida som visualiserar data f
 https://documenu.com
 
 Tjänsten är gratis att använda (upp till en viss gräns). Men den kan vi komma åt över 600000 Restauranger begränsat till USA. Ni behöver registrera er, och vi rekommenderar att ni gör det med GitHub.
-Gå sedan in på https://documenu.com/dashboard/apipreview för att se hur en request kan se ut. En bra *endpoint*  heter GET Search Restaurang Geo för er restaurang vy.
+Gå sedan in på https://documenu.com/dashboard/apipreview för att se hur en request kan se ut. 
+
+En bra *endpoint*  är **GET Search Restaurang Geo** för er restaurang vy.
+
+https://documenu.com/docs#get_search_restaurants_geo
+
 Under era kontouppgifter hittar ni er API-nyckel.
 
 API:et kan hämta närmaste restauranger från en angiven punkt (longitud, latitud).
