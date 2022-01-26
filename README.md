@@ -86,7 +86,7 @@ Utvecklingen av applikationen ska finnas dokumenterad på GitHub. Du ska ha gjor
 Här finns följande utmaningar. Anta en eller flera!
 
 - Skapa en hjälpklass för en metod som fetch()
-- Sidan ska även ha anpassad vyer för skärm
+- Sidan ska även ha anpassad vy för skärm
 - En användare ska kunna klicka på kartan för att ange en utgångspunkt för närliggande restauranger 
 - Spara ngn form av data i Local Storage
 - Beräkna avstånd mellan två punkter baserade på latitude | longitude (se länk under resurser)
