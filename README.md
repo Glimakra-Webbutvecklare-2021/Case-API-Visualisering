@@ -7,7 +7,7 @@ Case modul 4 API
 ## Introduktion
 I caset ska ni arbeta individuellt och skapa en webbsida som visualiserar data från API:er. Det ska vara en applikation som visualiserar data för restauranger i USA.
 
-## API:er
+## API
 
 ### Documenu
 https://documenu.com
@@ -32,17 +32,6 @@ EFtersom man kan göra ett begränsat antal förfrågningar så bör ni spara ne
  url = "data.json";
 ```
 
-### mapbox
-https://www.mapbox.com
-
-![mapbox](/mapbox.png)
-
-Tjänsten kan användas efter att man registrerar sig på https://account.mapbox.com/auth/signup/
-https://account.mapbox.com/auth/signup/
-
-I dokumentationen över API:et kommer du kunna se hur kartan kan integreras på webbsidan.
-
-
 ## Wireframes - LoFi & HiFi -> Prototyp
 Även om denna produkten ni skall skapa antagligen kommer vara enbart en vy så kommer det säkert finnas ett flöde (t ex filtrering).
 
@@ -53,18 +42,18 @@ Att ta fram:
 - Ni får använda er av befintliga UI-kits, men sätt gärna er egen touch på det.
 
 ## Namngivningsprinciper när du kodar
-- använd latinska tecken för variabelnamn och funktioner
-- använd förklarande namn, namngivna camelCase
+- använd latinska tecken för variabelnamn och funktioner namngivna camelCase 
 - skriv kommentarer i din kod
 - skriv kod med indrag (indentation)
 
 ## Om koden i applikationen 
-Applikationen får inte använda externa ramverk, utan det är vanilla JavaScript och CSS som gäller.
+Applikationen får inte använda externa ramverk, utan det är "vanilla" JavaScript och CSS som gäller.
 Dela upp struktur, innehåll, design och logik. Använd externa filer för CSS och JavaScript.
 
 
 ## Så börjar du
-Skapa ett privat repo på GitHub och koppla det till din lokala utvecklingsmiljö (Visual Studio Code). Under projektet - senast 1 februari bjuder du in dina lärare. Se Settings -> Manage access -> Add people
+Skapa ett privat repo på GitHub och koppla det till din lokala utvecklingsmiljö. 
+Under projektet - senast 1 februari bjuder du in dina lärare. Se Settings -> Manage access -> Add people
 
 *Lägg till:*
 
@@ -90,13 +79,18 @@ Här finns följande utmaningar. Anta en eller flera!
 
 - Skapa en hjälpklass för en metod som fetch()
 - Sidan ska även ha anpassad vy för skärm
-- En användare ska kunna klicka på kartan för att ange en utgångspunkt för närliggande restauranger 
+- Skapa en extra vy  
 - Spara ngn form av data i Local Storage
 - Beräkna avstånd mellan två punkter baserade på latitude | longitude (se länk under resurser)
-- ..ngt som du tycker 
+- En användare ska kunna klicka på en karta för att ange en utgångspunkt för närliggande restauranger
+- Integrera en klickbar karta som ex **mapbox** https://www.mapbox.com. I dokumentationen över API:et kommer du kunna se hur kartan kan integreras på webbsidan.
+
+
+![mapbox](/mapbox.png)
+
 
 ## Inlämning och redovisning
-- Caset lämnas in den 14 februari
+- Caset "lämnas in" (Gihub repo) den 14 februari. Ditt  räknas som inlämning
 - Redovisning av caset är den 15 februari.
 
 Vi vill den här gången att alla får ta del av varandras redovisning. Det innebär att ni behöver förbereda er på att redovisningen är kort - ca 5 minuter per person. Då visar ni (demonstrerar) er applikation genom att dela skärm. 
