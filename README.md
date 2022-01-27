@@ -43,11 +43,14 @@ https://account.mapbox.com/auth/signup/
 I dokumentationen över API:et kommer du kunna se hur kartan kan integreras på webbsidan.
 
 
-## Utforma en designskiss
-Genom papper eller annat medium beskriv hur restaurangvyn ska se ut. Desginvalen inkluderar men är inte begränsade till:
-- font
-- färgpalett
-- ikoner och bilder
+## Wireframes - LoFi & HiFi -> Prototyp
+Även om denna produkten ni skall skapa antagligen kommer vara enbart en vy så kommer det säkert finnas ett flöde (t ex filtrering).
+
+Att ta fram:
+- En LoFi-wireframe som förklarar strukturen och flödet (Valfritt)
+- En HiFi-wireframe som förklarar strukturen och flödet (Figma)
+- Prototyp i Figma med ett interaktivt flöde
+- Ni får använda er av befintliga UI-kits, men sätt gärna er egen touch på det.
 
 ## Namngivningsprinciper när du kodar
 - använd latinska tecken för variabelnamn och funktioner
