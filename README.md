@@ -72,7 +72,7 @@ Under projektet - senast 1 februari bjuder du in dina lärare. Se Settings -> Ma
 
 ## Grundläggande krav
 
-- I applikation ska en besökare kunna navigera efter närliggande resturanger. I API:et finns olika endpoints som gör det möjligt att söka, utifrån latidude och logitude
+- I applikation ska en besökare kunna navigera efter närliggande resturanger. I API:et finns olika endpoints som gör det möjligt att söka, utifrån latidude och logitude, eller exempelvis adress, stat.
 - Ett resultat ska presenteras och kunna filtreras efter någon valbar egenskap
 - Appen ska utgå från mobile first. Dvs när ni utvecklar så antag viewport likt en iPhone 10
 
