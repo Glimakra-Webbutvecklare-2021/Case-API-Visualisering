@@ -12,16 +12,24 @@ I caset ska ni arbeta individuellt och skapa en webbsida som visualiserar data f
 ### Documenu
 https://documenu.com
 
-Tjänsten är gratis att använda (upp till en viss gräns). Men den kan vi komma åt över 600000 Restauranger begränsat till USA. Ni behöver registrera er, och vi rekommenderar att ni gör det med GitHub.
+Tjänsten är gratis att använda (upp till en viss gräns). Men den kan vi komma åt över 600000 Restauranger begränsat till USA. Ni behöver registrera er, och vi rekommenderar att ni gör det med GitHub. 
+
+När du registrerat dig så finns din API-nyckel tillgänglig.
+
 Gå sedan in på https://documenu.com/dashboard/apipreview för att se hur en request kan se ut. 
 
-En bra *endpoint*  är **GET Search Restaurang Geo** för er restaurang vy.
+Exempel på *endpoints*:
 
+#### GET Search Restaurang Geo
 https://documenu.com/docs#get_search_restaurants_geo
 
-Under era kontouppgifter hittar ni er API-nyckel.
+Här hämtar API:et information om närliggande restauranger från en angiven punkt (longitud, latitud).
 
-API:et kan hämta närmaste restauranger från en angiven punkt (longitud, latitud).
+#### GET Search Restaurants
+https://documenu.com/docs#get_search_restaurants
+
+Här hämtar API:et information om restauranger från en ex stat, eller en zip code.
+
 
 #### Tips
 EFtersom man kan göra ett begränsat antal förfrågningar så bör ni spara ner en json respons och spara det som en lokal fil i er utvecklingsmiljö. När ni utvecklar kan ni ibland hämta verkliga data, och ibland data från en lokal fil. Ex:
@@ -64,10 +72,10 @@ Under projektet - senast 1 februari bjuder du in dina lärare. Se Settings -> Ma
 
 ## Grundläggande krav
 
-- I applikation ska en besökare kunna navigera efter närliggande resturanger 
+- I applikation ska en besökare kunna navigera efter närliggande resturanger. I API:et finns olika endpoints som gör det möjligt att söka, utifrån latidude och logitude
 - Ett resultat ska presenteras och kunna filtreras efter någon valbar egenskap
 - Appen ska utgå från mobile first. Dvs när ni utvecklar så antag viewport likt en iPhone 10
-- En bild av en karta (ej klickbar för koordinater) 
+
 
 Utvecklingen av applikationen ska finnas dokumenterad på GitHub. Du ska ha gjort minst 10 commits under projektet.
 
