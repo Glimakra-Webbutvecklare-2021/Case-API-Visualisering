@@ -1,18 +1,18 @@
-# Case-API-Visualisering
+# Case API-Visualisering
 
 ***
 
-Case modul 4 API
+Case under modul 4: API
 
 ## Introduktion
-I caset ska ni arbeta individuellt och skapa en webbsida som visualiserar data från API:er. Det ska vara en applikation som visualiserar data för restauranger i USA.
+I caset ska ni arbeta individuellt och skapa en applikation (webbsida) som visualiserar data som hämtas från ett API. Applikation ska visualisera data för restauranger i USA.
 
 ## API
 
 ### Documenu
 https://documenu.com
 
-Tjänsten är gratis att använda (upp till en viss gräns). Men den kan vi komma åt över 600000 Restauranger begränsat till USA. Ni behöver registrera er, och vi rekommenderar att ni gör det med GitHub. 
+Tjänsten är gratis att använda (upp till en viss gräns). Men tjänsten kan du komma hämta data från restauranger i USA. För att använda tjänsten behöver man använda en unik API nyckel. Nyckeln får du efter att du registrerat dig. Ett tips är att du använder ditt GitHub konto för registreringen. 
 
 När du registrerat dig så finns din API-nyckel tillgänglig.
 
@@ -23,7 +23,8 @@ Exempel på *endpoints*:
 #### GET Search Restaurang Geo
 https://documenu.com/docs#get_search_restaurants_geo
 
-Här hämtar API:et information om närliggande restauranger från en angiven punkt (longitud, latitud).
+Här hämtar API:et information om närliggande restauranger från en angiven punkt (latitud, longitud).
+Du kan exempelvis använda webbsidan https://www.latlong.net/ för att se latitud och lognitud för en plats.
 
 #### GET Search Restaurants
 https://documenu.com/docs#get_search_restaurants
@@ -40,6 +41,7 @@ EFtersom man kan göra ett begränsat antal förfrågningar så bör ni spara ne
  url = "data.json";
 ```
 
+
 ## Wireframes - LoFi & HiFi -> Prototyp
 Även om denna produkten ni skall skapa antagligen kommer vara enbart en vy så kommer det säkert finnas ett flöde (t ex filtrering).
 
@@ -50,7 +52,7 @@ Att ta fram:
 - Ni får använda er av befintliga UI-kits, men sätt gärna er egen touch på det.
 
 ## Namngivningsprinciper när du kodar
-- använd latinska tecken för variabelnamn och funktioner namngivna camelCase 
+- använd latinska tecken för variabelnamn och funktioner (camelCase) 
 - skriv kommentarer i din kod
 - skriv kod med indrag (indentation)
 
@@ -72,7 +74,7 @@ Under projektet - senast 1 februari bjuder du in dina lärare. Se Settings -> Ma
 
 ## Grundläggande krav
 
-- I applikation ska en besökare kunna navigera efter närliggande resturanger. I API:et finns olika endpoints som gör det möjligt att söka, utifrån latidude och logitude, eller exempelvis adress, stat.
+- I applikation ska en besökare kunna navigera efter närliggande resturanger. I API:et finns olika endpoints som gör det möjligt att söka, utifrån latidud och logitud, eller exempelvis adress, stat.
 - Ett resultat ska presenteras och kunna filtreras efter någon valbar egenskap
 - Appen ska utgå från mobile first. Dvs när ni utvecklar så antag viewport likt en iPhone 10
 
@@ -83,13 +85,13 @@ Utvecklingen av applikationen ska finnas dokumenterad på GitHub. Du ska ha gjor
 ## Utmaningar
 (Förutom att applikationen uppfyller de grundläggande kraven ovan)
 
-Här finns följande utmaningar. Anta en eller flera!
+Här finns följande utmaningar. Se om du kan anta en eller flera!
 
 - Skapa en hjälpklass för en metod som fetch()
 - Sidan ska även ha anpassad vy för skärm
 - Skapa en extra vy  
 - Spara ngn form av data i Local Storage
-- Beräkna avstånd mellan två punkter baserade på latitude | longitude (se länk under resurser)
+- Beräkna avstånd mellan två punkter baserade på latitud | longitud (se länk under resurser)
 - En användare ska kunna klicka på en karta för att ange en utgångspunkt för närliggande restauranger
 - Integrera en klickbar karta som ex **mapbox** https://www.mapbox.com. I dokumentationen över API:et kommer du kunna se hur kartan kan integreras på webbsidan.
 
@@ -98,7 +100,7 @@ Här finns följande utmaningar. Anta en eller flera!
 
 
 ## Inlämning och redovisning
-- Caset "lämnas in" (Gihub repo) den 14 februari. Ditt  räknas som inlämning
+- Caset "lämnas in" (Ska finnas färdigt i ett Gihub repo) den 14 februari. Tänk på att inte visa console.log() i ett färdigt projekt. 
 - Redovisning av caset är den 15 februari.
 
 Vi vill den här gången att alla får ta del av varandras redovisning. Det innebär att ni behöver förbereda er på att redovisningen är kort - ca 5 minuter per person. Då visar ni (demonstrerar) er applikation genom att dela skärm. 
@@ -110,10 +112,10 @@ I reovisningen ska du:
 - visa exempel på annan funktionalitet (ex ngn av utmaningarna)
 - berätta vad du är mest nöjd med (design, kod, struktur...)
 - berätta vad du skulle vilja att applikationen kan göra, men inte hunnit att koda
-- Redovisningen sker i bokstavordning (efternamn)
+- redovisning sker i bokstavordning (efternamn A-Ö)
 
 ## Handledning
-Det kommer givetvis finnas möjlighet till handledning fram tills den 15 februari. I första hand är det under vanlig lektionstid.
+Det kommer givetvis finnas möjlighet till handledning fram tills den 15 februari. I första hand är det handledning under vanlig lektionstid.
 
 ## Resurser
 - Kom igång med Documenu: https://documenu.com/docs#get_started
